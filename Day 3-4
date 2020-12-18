@@ -73,7 +73,8 @@ public class MainActivity : AppCompatActivity() {
     android:paddingRight="16dp"
     android:paddingTop="5dp"
     tools:context=".MainActivity">
-
+    
+    //This code is used to write a testing sentence and changes the color and fontsize of it
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -96,7 +97,7 @@ public class MainActivity : AppCompatActivity() {
         android:layout_weight="1" />
         
         
-    // This block of code shows how
+    // This block of code shows what the user sees and the size of it. 
     <View
         android:id="@+id/view"
         android:layout_width="wrap_content"
