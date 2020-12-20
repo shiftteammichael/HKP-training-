@@ -1,5 +1,5 @@
 
-//This is the main activity class for the android app 
+//This is the main activity class for the android app activity_main.xml
 
 
 package com.example.app3
@@ -58,7 +58,7 @@ public class MainActivity : AppCompatActivity() {
 
 
 
-// This class is used to implement changes on the app and the way it looks 
+// This class is used to implement changes on the app and the way it looks                  MainActivity.kt
 
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -111,7 +111,7 @@ public class MainActivity : AppCompatActivity() {
 
 
 //This is used as a separate class for texts so it can be customized later on such as
-//having different languages instead of one
+//having different languages instead of one  strings.xml
 
 <resources>
     <string name="app_name">APP3</string>
